@@ -1,0 +1,41 @@
+export const allSideMenuData = [{
+    "id":10000,
+    "name":"首页",
+    "icon":"video-camera",
+    "link":'/tab/index'
+},
+{
+    "id":10010,
+    "name":"菜单",
+    "icon":"video-camera",
+    "link":'/tab/menus'
+},
+{
+    "id":10020,
+    "name":"订单",
+    "icon":"video-camera",
+    "link":'/tab/orders'
+},
+{
+    "id":10030,
+    "name":"统计",
+    "icon":"video-camera",
+    "items":[
+        {
+            "id":10031,
+            "name":'订单统计',
+            "link":'/tab/orderStatistics'
+        },
+        {
+            "id":10032,
+            "name":'菜单统计',
+            "link":'/tab/menuStatistics'
+        }
+    ]
+},
+{
+    "id":10040,
+    "name":"员工管理",
+    "icon":"video-camera",
+    "link":'/tab/employee'
+}];
