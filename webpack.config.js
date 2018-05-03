@@ -50,11 +50,11 @@ module.exports = {
         port: 9090, //默认9090
         inline: true, //可以监控js变化
         hot: true,//热启动
-        proxy: {
-            "/api/*": {    //需要代理的路径
-              target: "http://127.0.0.1:3000",  //需要代理的域名
-              changeOrigin: true  //必须配置为true，才能正确代理
-            }
-          }
+        // proxy: {
+        //     "/api/*": {    //需要代理的路径
+        //       target: "http://127.0.0.1:3000",  //需要代理的域名
+        //       changeOrigin: true  //必须配置为true，才能正确代理
+        //     }
+        //   }
     }
 }
